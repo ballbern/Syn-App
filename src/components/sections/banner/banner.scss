@@ -1,0 +1,27 @@
+@import '../../../style/color';
+
+.c-banner {
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(0deg, rgba(1, 165, 187, 0.746), rgba(1, 165, 187, 0.746)), url("../../../assets/top_img.png");
+    background-size:cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $blue-3;
+    padding: 20px 40px 70px;
+
+        &__content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 25px 0 0 0;
+
+                &div {
+                    align-self: flex-start;
+                }
+        }
+}

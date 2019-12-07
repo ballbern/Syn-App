@@ -1,0 +1,26 @@
+@import '../../../style/color';
+
+.row{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: $gray-1;
+  padding-bottom: 40px;
+}
+
+.card {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}

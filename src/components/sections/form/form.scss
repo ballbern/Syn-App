@@ -1,0 +1,27 @@
+@import '../../../style/color';
+
+.c-form {
+    height: 100%;
+
+        &__title {
+            color: $blue-4;
+            font-size: 2.5em;
+            font-weight: bolder;
+        }
+
+        &__container {
+            flex: 1;   
+            padding: 70px 130px 45px 70px;
+        }
+
+        &__text {
+            color: $gray-4;
+            padding-bottom: 10px;
+        }
+
+        &__img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+        }
+}

@@ -1,0 +1,30 @@
+@import '../../style/color';
+
+.c-scroll-card {
+    background-color: $blue-3;
+    transition: 0.3s;
+    margin: 50px;
+    max-width: 400px;
+    max-height: 500px;
+
+        &__container {
+            padding: 20px 20px 20px 20px;
+
+                & div {
+                    text-transform: uppercase;
+                    color: $blue-4;
+                    font-size: 1.5em;
+                    font-weight: 400;
+                }
+
+                & p {
+                    color: $gray-1;
+                }
+        }
+
+        &__img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+}

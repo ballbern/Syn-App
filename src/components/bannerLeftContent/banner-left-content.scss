@@ -1,0 +1,25 @@
+@import '../../style/color';
+
+.c-banner-left-content {
+    color: white;
+    max-width: 610px;
+
+        &__title {
+            font-size: 3em;
+            font-weight: 900;
+        }
+
+        &__text {
+            font-size: 1em;
+            font-weight: lighter;
+            max-width: 500px;
+        }
+
+        &--dark-title {
+            color: $blue-4;
+        }
+
+        &--dark-content {
+            color: $gray-4;
+        }
+}
