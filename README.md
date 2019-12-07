@@ -1,8 +1,8 @@
 # Syn-App
 
-# Run App
+### Run App
 ```
-git clone 
+git clone https://github.com/ballbern/Syn-App.git 
 cd Syn-App
 npm install
 npm start
