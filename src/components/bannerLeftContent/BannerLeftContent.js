@@ -1,10 +1,14 @@
 import React from 'react';
 import Button from '../button/Button';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./banner-left-content.scss"; 
+
+AOS.init();
 
 const BannerLeftContent = (props) => {
     return (
-        <div className="c-banner-left-content">
+        <div data-aos={ props.dataAos } className="c-banner-left-content">
             <span className={`c-banner-left-content__title ${ props.contentStyle && 'c-banner-left-content__title c-banner-left-content--dark-title' }`}>
                 { props.title }
             </span>

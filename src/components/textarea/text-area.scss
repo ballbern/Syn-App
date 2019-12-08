@@ -1,6 +1,6 @@
 @import '../../style/color';
 
-.c-form-group {
+.c-text-area-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
@@ -11,7 +11,7 @@
             font-size: 20px;
         }
 
-        & input {
+        & textarea {
             background-color: $gray-1;
             border-radius: 8px;
             min-width: 50%;

@@ -4,7 +4,7 @@ import './scroll.scss'
 
 const Scroll = () => {
     return (
-        <div className="container">
+        <section className="container">
             <div className="row">
                 <div className="card">
                     <ScrollCard />
@@ -25,7 +25,7 @@ const Scroll = () => {
                     <ScrollCard />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
