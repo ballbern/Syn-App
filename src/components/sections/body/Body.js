@@ -14,7 +14,7 @@ const Body = () => {
     return (
         <section className="c-body">
             <Table />
-            <div style={{ display: 'flex', justifyContent: 'space-around', paddingTop: 100 }}>
+            <div className="c-body__content">
                 <img data-aos="fade-up" width="30%" height="30%" src={require("../../../assets/phone_mockup_screens.png")} alt="image" className=""/>
                 <BannerLeftContent 
                     dataAos="fade-left"

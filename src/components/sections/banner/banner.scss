@@ -23,5 +23,10 @@
                 &div {
                     align-self: flex-start;
                 }
+                
+                @media (max-width: 1224px) {
+                    display: block;
+                    margin: auto;    
+                }
         }
 }

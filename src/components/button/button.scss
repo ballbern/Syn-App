@@ -12,7 +12,12 @@
 
     &--second {
       background-color: $blue-4;
-      border-radius: 10px;
+      border-radius: 5px;
+        @media (max-width: 1224px) {
+          padding: 8px 35px 8px 35px;
+          font-size: 12px;
+          margin-right: 5px;
+        }
     }
 
     &--small {

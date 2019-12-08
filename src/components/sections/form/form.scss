@@ -1,27 +1,37 @@
 @import '../../../style/color';
 
 .c-form {
+    display: flex,;
+    flex: 1;
     height: 100%;
 
-        &__title {
-            color: $blue-4;
-            font-size: 2.5em;
-            font-weight: bolder;
-        }
-
-        &__container {
-            flex: 1;   
-            padding: 70px 130px 45px 70px;
-        }
-
-        &__text {
-            color: $gray-4;
-            padding-bottom: 10px;
+        @media (max-width: 1224px) {
+            display: block;
+            margin: auto;
         }
 
         &__img {
-            width: 100%;
+            height: 100px;
+            background-image: url('../../../assets/img6.png');
+            background-repeat: no-repeat;
+            min-width: 30%;
             height: auto;
-            max-width: 400px;
+            background-size: contain;
         }
+
+            &__title {
+                color: $blue-4;
+                font-size: 2.5em;
+                font-weight: bolder;
+            }
+
+            &__container {
+                flex: 1;   
+                padding: 70px 130px 45px 70px;
+            }
+
+            &__text {
+                color: $gray-4;
+                padding-bottom: 10px;
+            }
 }

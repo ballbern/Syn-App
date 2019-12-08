@@ -3,6 +3,10 @@
 .c-banner-left-content {
     color: white;
     max-width: 610px;
+    @media (max-width: 1224px) {
+        display: flex; 
+        flex-direction: column; 
+    }
 
         &__title {
             font-size: 3em;
@@ -13,6 +17,9 @@
             font-size: 1em;
             font-weight: lighter;
             max-width: 500px;
+            @media (max-width: 1224px) {
+                max-width: 600px; 
+            }
         }
 
         &--dark-title {
