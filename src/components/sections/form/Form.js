@@ -17,9 +17,9 @@ const Form = () => {
                 <div className="c-form__title">FUSCE VEHICULA DOLOR.</div>
                 <div className="c-form__text">industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
                 <form>
-                    <FormField label="NAME" />
-                    <FormField label="EMAIL" />
-                    <Textarea label="MESSAGE" rows="10" cols="50" />
+                    <FormField label="NAME" id="name" ariaLabel="name" />
+                    <FormField label="EMAIL" id="email" ariaLabel="email" />
+                    <Textarea label="MESSAGE" rows="10" cols="50" id="message" ariaLabel="message" />
                 </form>
             </form>
         </section>

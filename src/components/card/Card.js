@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faEdit } from '@fortawesome/free-solid-svg-icons'
 import "./card.scss";
 
-const Card = (props) => {
+const Card = () => {
     return (
         <article className="c-card">
             <img src={require("../../assets/profile_pic.png")} alt="image" className="c-card__img"/>
